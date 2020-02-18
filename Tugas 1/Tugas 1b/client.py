@@ -9,7 +9,6 @@ server_address = ('127.0.0.1', 32000)
 print(f"connecting to {server_address}")
 sock.connect(server_address)
 
-
 try:
     NamaFile = input('masukkan nama file :')
     sock.sendall(NamaFile.encode())
