@@ -5,7 +5,7 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to the port
-server_address = ('10.151.254.230', 31000)
+server_address = ('127.0.0.1', 32000)
 print(f"starting up on {server_address}")
 sock.bind(server_address)
 
@@ -16,17 +16,18 @@ while True:
     print("Menunggu koneksi dari client")
     connection, client_address = sock.accept()
     print(f"connection from {client_address}")
-    
-    NamaFile = 'gambar1_sever.png'
-    FileTerima = open(NamaFile, 'wb+')
 
-    # Receive the data in small chunks and retransmit it
-    while True:
-        data = connection.recv(64)
-        if data:
-            FileTerima.write(data)
-        else:
-            print(f"file diterima dari {client_address}")
-            break
+    TerimaNama = connection.recv(64)
+    NamaFile = TerimaNama.decode()
+
+    try:
+        FileKirim = open(NamaFile, 'rb')
+        for data in FileKirim:
+            connection.sendall(data)
+        FileKirim.close()
+    except IOError:
+        connection.sendall(b'')
+        
+
     # Clean up the connection
     connection.close()
