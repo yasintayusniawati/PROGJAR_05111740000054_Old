@@ -11,7 +11,7 @@ sock.connect(server_address)
 
 
 try:
-    NamaFile = "gambar2.png"
+    NamaFile = "gambar1.png"
     FileKirim = open(NamaFile, 'rb')
     for data in FileKirim:
         sock.sendall(data)

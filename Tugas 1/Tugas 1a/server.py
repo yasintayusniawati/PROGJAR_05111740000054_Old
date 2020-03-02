@@ -17,7 +17,7 @@ while True:
     connection, client_address = sock.accept()
     print(f"connection from {client_address}")
     
-    NamaFile = 'gambar2_sever.png'
+    NamaFile = 'gambar1_sever.png'
     FileTerima = open(NamaFile, 'wb+')
 
     # Receive the data in small chunks and retransmit it
@@ -29,4 +29,5 @@ while True:
             print(f"file diterima dari {client_address}")
             break
     # Clean up the connection
+    FileTerima.close()
     connection.close()
