@@ -14,4 +14,5 @@
 * Karena menggunakan koneksi local klik 2x pada tulisan **Adapter for loopback traffic capture** dan isi filter menjadi **udp && ip.dst === 127.0.0.1 && udp.port == 5006**
 * Berikut adalah hasil capture dari filter yang sudah dijalankan
 
+![Hasil_capture_udp_simple](https://user-images.githubusercontent.com/37019733/75652734-694d3380-5c8e-11ea-809f-aaeb5faf7507.png)
 
