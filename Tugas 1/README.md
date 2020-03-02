@@ -5,7 +5,9 @@
 - Di program server.py ubah nama file yang diterima pada server. Misal : NamaFile = 'gambar1_sever.png'
 - Jalankan program server.py dan client.py
 - Gambar folder saat file belum dikirimkan
+
 - ![sebelum_file_gambar1_dikirimkan (di client)](https://user-images.githubusercontent.com/37019733/75686541-0334d080-5ccf-11ea-8e12-06701b256a06.JPG)
+
 - Gambar folder setelah file gambar1.png dikirimkan ke server :
 - ![setelah_file_gambar1_dikirimkan(di server)](https://user-images.githubusercontent.com/37019733/75688165-97a03280-5cd1-11ea-8dd7-1dc9d574f9fb.JPG)
 
