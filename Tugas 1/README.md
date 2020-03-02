@@ -11,6 +11,6 @@
 - Jalankan server.py kemudian client.py
 - Berikut adalah gambar setelah file gambar1.png dikirimkan ke server :
 
-
+![setelah_file_gambar1_dikirimkan(di server)](https://user-images.githubusercontent.com/37019733/75688165-97a03280-5cd1-11ea-8dd7-1dc9d574f9fb.JPG)
 
 ### Modifikasilah program server.py agar dapat mengirimkan mentransfer file yang di request oleh client (letakkan program modifikasi di direktori tugas1b)
