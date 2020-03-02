@@ -19,5 +19,8 @@
 - Pada client.py akan diminta memasukkan nama file yang diminta. Ketikkan file yang diminta misal : fileku.txt
 - Gambar pada server sebelum client meminta request file
 
+- ![sebelum_client_meminta_request_file](https://user-images.githubusercontent.com/37019733/75690122-e8fdf100-5cd4-11ea-9d0b-265c0c0964b4.JPG)
 
 - Gambar di client setelah client menerima file yang diminta
+
+- ![setelah_client_menerima_file_request](https://user-images.githubusercontent.com/37019733/75690174-f9ae6700-5cd4-11ea-8fb7-bd480a6e3029.JPG)
