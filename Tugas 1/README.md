@@ -7,7 +7,7 @@
 ![sebelum_file_gambar1_dikirimkan (di client)](https://user-images.githubusercontent.com/37019733/75686541-0334d080-5ccf-11ea-8e12-06701b256a06.JPG)
 
 - Buka file server.py ubah server_address sesuai dengan ip komputer kita dan port. Misal : server_address = ('10.151.252.189', 31000)
-- Ubah nama file yang diterima pada server agar menghindari duplikasi nama. Misal : NamaFile = 'gambar2_sever.png'
+- Ubah nama file yang diterima pada server agar menghindari duplikasi nama. Misal : NamaFile = 'gambar1_sever.png'
 - Jalankan server.py kemudian client.py
 - Berikut adalah gambar setelah file gambar1.png dikirimkan ke server :
 
