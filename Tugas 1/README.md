@@ -14,3 +14,10 @@
 ![setelah_file_gambar1_dikirimkan(di server)](https://user-images.githubusercontent.com/37019733/75688165-97a03280-5cd1-11ea-8dd7-1dc9d574f9fb.JPG)
 
 ### Modifikasilah program server.py agar dapat mengirimkan mentransfer file yang di request oleh client (letakkan program modifikasi di direktori tugas1b)
+- Buka file client.py dan server.py, sesuaikan ip client dan servernya.
+- Jalankan program server.py dan client.py
+- Pada client.py akan diminta memasukkan nama file yang diminta. Ketikkan file yang diminta misal : fileku.txt
+- Gambar pada server sebelum client meminta request file
+
+
+- Gambar di client setelah client menerima file yang diminta
