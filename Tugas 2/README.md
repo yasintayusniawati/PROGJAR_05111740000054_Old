@@ -16,3 +16,5 @@
 
 * ![Hasil_capture_udp_simple](https://user-images.githubusercontent.com/37019733/75652734-694d3380-5c8e-11ea-809f-aaeb5faf7507.png)
 
+### 3. Gambar "capture_udpfileclient_beda_pc"
+Merupakan hasil dari program udpfileclient_beda_komputer.py, dari alamat PC saya '10.151.253.199' menuju ip '10.151.253.138', data yang dikirim yaitu file 'bart.png'
