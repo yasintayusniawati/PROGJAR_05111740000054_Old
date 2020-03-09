@@ -4,9 +4,11 @@ import socket
 # Create a TCP/IP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+port = 31002
+
 # Bind the socket to the port
-server_address = ('10.151.252.189', 31000)
-print(f"starting up on {server_address}")
+server_address = ('10.151.253.199', port)
+print(f"starting up on {server_address} port {port}")
 sock.bind(server_address)
 
 # Listen for incoming connections
@@ -17,7 +19,7 @@ while True:
     connection, client_address = sock.accept()
     print(f"connection from {client_address}")
     
-    NamaFile = 'gambar1_sever.png'
+    NamaFile = 'gambar1_sever_'+str(port)+'.png'
     FileTerima = open(NamaFile, 'wb+')
 
     # Receive the data in small chunks and retransmit it
