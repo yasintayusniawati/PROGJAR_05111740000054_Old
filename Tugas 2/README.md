@@ -18,3 +18,6 @@
 
 ### 3. Gambar "capture_udpfileclient_beda_pc"
 Merupakan hasil dari program udpfileclient_beda_komputer.py, dari alamat PC saya '10.151.253.199' menuju ip '10.151.253.138', data yang dikirim yaitu file 'bart.png'
+
+### 4. Gambar "capture_udp_simple_beda_pc"
+Merupakan hasil dari program udp_simple_beda_komputer.py, dari alamat PC saya '10.151.253.199' menuju ip '10.151.253.138', data yang dikirim yaitu kalimat 'Yasinta-ProgjarC'
