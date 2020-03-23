@@ -14,26 +14,31 @@ string terbagi menjadi 2 bagian, dipisahkan oleh spasi
 ```
 COMMAND spasi PARAMETER spasi PARAMETER ...
 ```
-b. Daftar Fitur
+
+### b. Daftar Fitur
 - create : meletakkan file
 - list : melihat daftar file yang ada di server
 - get : untuk mengambil file
 
-c. Cara melakukan request dan respon yang di dapat
+### c. Cara melakukan request dan respon yang di dapat
 
 - Create 
-  request : create
-  parameter : nama_file
-  response : berhasil mengupload -> ok
-             gagal mengupload -> error
-
+```
+  request     : create
+  parameter   : nama_file
+  response    : berhasil mengupload -> ok
+                gagal mengupload -> error
+```
 - list
-request: list
-  parameter: tidak ada
-  response: daftar file yang ada di server
-
+```
+  request     : list
+  parameter   : tidak ada
+  response    : daftar file yang ada di server
+```
 - get 
-request: get 
-  parameter: nama_file yang diinginkan
-  response: berhasil mendownload -> file yang direquest, beserta string success
-            gagal mendownload -> error
+```
+  request     : get 
+  parameter   : nama_file yang diinginkan
+  response    : berhasil mendownload -> file yang direquest, beserta string success
+                gagal mendownload -> error
+```
