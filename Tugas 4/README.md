@@ -9,18 +9,18 @@
 * Gambar melihat_list_file.jpg : Menjalankan server_person.py dan client_list.py untuk melihat list file yang ada pada server. File yang ada dalam database program ini adalah file bart.png dan gambar1.png
 
 
-### a. Ketentuan membaca Format
+#### a. Ketentuan membaca Format
 string terbagi menjadi 2 bagian, dipisahkan oleh spasi
 ```
 COMMAND spasi PARAMETER spasi PARAMETER ...
 ```
 
-### b. Daftar Fitur
+#### b. Daftar Fitur
 - create : meletakkan file
 - list : melihat daftar file yang ada di server
 - get : untuk mengambil file
 
-### c. Cara melakukan request dan respon yang di dapat
+#### c. Cara melakukan request dan respon yang di dapat
 
 - Create 
 ```
