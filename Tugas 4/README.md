@@ -9,7 +9,7 @@
 * Gambar melihat_list_file.jpg : Menjalankan server_person.py dan client_list.py untuk melihat list file yang ada pada server. File yang ada dalam database program ini adalah file bart.png dan gambar1.png
 
 
-# Dokumentasi
+## Dokumentasi
 #### a. Ketentuan membaca Format
 string terbagi menjadi 2 bagian, dipisahkan oleh spasi
 ```
