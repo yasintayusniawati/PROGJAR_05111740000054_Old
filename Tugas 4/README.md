@@ -1,6 +1,7 @@
 # Tugas 4
 ![1](https://github.com/yasintayusniawati/PROGJAR_05111740000054/blob/master/Tugas%204/img/soal.jpg)
 
+## Penjelasan
 * Gambar meletakkan_file.jpg : Menjalankan server_person.py dan client_kirim.py untuk mengirimkan file gambar bart.png. Setelah file gambar terkirim akan diletakkan pada folder server dengan nama file bart.png
 
 * Gambar mengambil_file.jpg : Menjalankan server_person.py dan client_get.py untuk mengambil file gambar bart.png. Setelah file gambar berhasil di ambil nama file yang diterima client menjadi client_bart.png
@@ -10,9 +11,9 @@
 
 ### a. Ketentuan membaca Format
 string terbagi menjadi 2 bagian, dipisahkan oleh spasi
-'''
+```
 COMMAND spasi PARAMETER spasi PARAMETER ...
-'''
+```
 b. Daftar Fitur
 - create : meletakkan file
 - list : melihat daftar file yang ada di server
