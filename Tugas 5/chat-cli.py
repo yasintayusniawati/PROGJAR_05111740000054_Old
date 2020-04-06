@@ -121,9 +121,10 @@ class ChatClient:
 if __name__=="__main__":
     cc = ChatClient()
     print("Command :\n1.Authentication : auth [username] [password]\n" + 
-    "2.Kirim pesan : send [username pengirim] [isi pesan]\n" +
+    "2.Kirim pesan : send [username penerima] [isi pesan]\n" +
     "3.Logout : logout\n" + 
-    "4.Melihat semua user : list_user\n")
+    "4.Melihat semua user : list_user\n" +
+    "5.Melihat user yang aktif : user_aktif")
     while True:
         cmdline = input("Command {}:" . format(cc.tokenid))
         print(cc.proses(cmdline))
