@@ -20,4 +20,4 @@ Jalankan file server_thread_http.py
 
 
 ### Hasil tabulasi dari ketiga tes yang telah dilakukan
-![4](https://github.com/yasintayusniawati/PROGJAR_05111740000054/blob/master/Tugas%207/img/test3.JPG)
+![4](https://github.com/yasintayusniawati/PROGJAR_05111740000054/blob/master/Tugas%207/img/hasil%20performance%20test.JPG)
