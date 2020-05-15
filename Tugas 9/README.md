@@ -13,5 +13,5 @@
   * Server Thread : 46000
   ![2](https://github.com/yasintayusniawati/PROGJAR_05111740000054/blob/master/Tugas%209/Screenshot/thread/hasil_test.JPG)
 
-### 4. Kesimpulan
+#### 4. Kesimpulan
 Hasil test dari performance test pada tabel di atas menunjukkan bahwa menggunakan asynchronous server alokasi memory dan cpu akan lebih efisien. Sedangkan jika menggunakan server thread bila semakin banyak client yang melakukan request semakin banyak CPU time yang dibutuhkan dan penggunaan memory juga meningkat.
