@@ -7,3 +7,5 @@
    * Jumlah Request     : 1000
    * Konkurensi         : 1,2,3,4
 #### 3. Hasil ujicoba dengan apache benchmark
+  * Server Async : port 45000
+  ![1](https://github.com/yasintayusniawati/PROGJAR_05111740000054/blob/master/Tugas%209/Screenshot/async/hasil_test.JPG)
