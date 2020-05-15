@@ -9,5 +9,6 @@
 #### 3. Hasil ujicoba dengan apache benchmark
   * Server Async : port 45000
   ![1](https://github.com/yasintayusniawati/PROGJAR_05111740000054/blob/master/Tugas%209/Screenshot/async/hasil_test.JPG)
+  
   * Server Thread : 46000
-  ![2](https://github.com/yasintayusniawati/PROGJAR_05111740000054/tree/master/Tugas%209/Screenshot/thread)
+  ![2](https://github.com/yasintayusniawati/PROGJAR_05111740000054/blob/master/Tugas%209/Screenshot/thread/hasil_test.JPG)
